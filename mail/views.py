@@ -18,8 +18,8 @@ def EmailSh(request):
             day= fm.cleaned_data['date']
             hr= fm.cleaned_data['hour']
             min= fm.cleaned_data['minute']
-            sender_email = "ahmadsayyed66@gmail.com"
-            password = "oxsujuvkrjswbszs" # genrate passord from gmail app password genrator
+            sender_email = "xyzgmail.com"
+            password = "zdsdfafsasfasfasf" # genrate passord from gmail app password genrator
             port = 587 
             smtp_server = "smtp.gmail.com" 
             message = 'Subject: {}\n\n{}'.format(SUBJECT, TEXT)
